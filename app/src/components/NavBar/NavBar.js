@@ -34,11 +34,10 @@ const NavBar = () => {
                             <li className='nav-item dropdown'>
                                 <a
                                     className='nav-link dropdown-toggle'
-                                    href='#!'
                                     id='navbarDropdown'
                                     role='button'
                                     data-bs-toggle='dropdown'
-                                    aria-expanded='false'
+                                    aria-expanded='true'
                                 >
                                     Dropdown
                                 </a>
