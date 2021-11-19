@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // Views
 import Home from '../src/views/Home';
-import Jerseys from '../src/views/Jerseys';
+import TallOneEight from '../src/views/tallOneEight';
 
 // Components
 import NavBar from './components/NavBar/NavBar';
@@ -18,7 +18,7 @@ function App() {
                     <NavBar />
                     <Switch>
                         <Route exact path='/' component={Home} />
-                        <Route exact path='/jerseys' component={Jerseys} />
+                        <Route exact path='/jerseys' component={TallOneEight} />
                     </Switch>
                 </BrowserRouter>
             </div>
