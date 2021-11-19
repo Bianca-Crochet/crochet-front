@@ -1,10 +1,12 @@
 import React from 'react';
 
+import classes from './navbar.module.css';
+
 const Navbar = () => {
     return (
-        <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
+        <nav className={`navbar navbar-expand-lg ${classes['navbar']}`}>
             <div className='container-fluid'>
-                <a className='navbar-brand' href='/'>
+                <a className={`navbar-brand' ${classes['title']}`} href='/'>
                     Crochet-App
                 </a>
                 <button
@@ -22,7 +24,7 @@ const Navbar = () => {
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
                             <div
-                                className='nav-link dropdown-toggle'
+                                className={`nav-link dropdown-toggle ${classes['title']}`}
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'
@@ -57,7 +59,7 @@ const Navbar = () => {
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
                             <div
-                                className='nav-link dropdown-toggle'
+                                className={`nav-link dropdown-toggle ${classes['title']}`}
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'
@@ -92,7 +94,7 @@ const Navbar = () => {
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
                             <div
-                                className='nav-link dropdown-toggle'
+                                className={`nav-link dropdown-toggle ${classes['title']}`}
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'
@@ -127,7 +129,7 @@ const Navbar = () => {
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
                             <div
-                                className='nav-link dropdown-toggle'
+                                className={`nav-link dropdown-toggle ${classes['title']}`}
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'

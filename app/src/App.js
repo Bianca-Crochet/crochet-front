@@ -9,6 +9,7 @@ import TallOneThree from '../src/views/tallOneThree';
 
 // Components
 import NavBar from './components/NavBar/NavBar';
+import Footer from './components/Footer/Footer';
 
 // Style
 import './App.css';
@@ -26,6 +27,7 @@ function App() {
                         <Route exact path='/tall-one-four' component={tallOneFour} />
                         <Route exact path='/tall-one-three' component={TallOneThree} />
                     </Switch>
+                    <Footer />
                 </BrowserRouter>
             </div>
         </>
