@@ -21,20 +21,19 @@ const Navbar = () => {
                 <div className='collapse navbar-collapse' id='navbarSupportedContent'>
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
-                            <a
+                            <div
                                 className='nav-link dropdown-toggle'
-                                href='#'
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'
                                 aria-expanded='false'
                             >
                                 1/8
-                            </a>
+                            </div>
                             <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                                 <li>
-                                    <a className='dropdown-item' href='#'>
-                                        Action
+                                    <a className='dropdown-item' href='/tall-one-eight'>
+                                        Todos los productos
                                     </a>
                                 </li>
                                 <hr className='dropdown-divider' />
@@ -57,20 +56,19 @@ const Navbar = () => {
                     </ul>
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
-                            <a
+                            <div
                                 className='nav-link dropdown-toggle'
-                                href='#'
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'
                                 aria-expanded='false'
                             >
                                 1/6
-                            </a>
+                            </div>
                             <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                                 <li>
-                                    <a className='dropdown-item' href='#'>
-                                        Action
+                                    <a className='dropdown-item' href='/tall-one-six'>
+                                        Todos los productos
                                     </a>
                                 </li>
                                 <hr className='dropdown-divider' />
@@ -93,20 +91,19 @@ const Navbar = () => {
                     </ul>
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
-                            <a
+                            <div
                                 className='nav-link dropdown-toggle'
-                                href='#'
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'
                                 aria-expanded='false'
                             >
                                 1/4
-                            </a>
+                            </div>
                             <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                                 <li>
-                                    <a className='dropdown-item' href='#'>
-                                        Action
+                                    <a className='dropdown-item' href='/tall-one-four'>
+                                        Todos los productos
                                     </a>
                                 </li>
                                 <hr className='dropdown-divider' />
@@ -129,20 +126,19 @@ const Navbar = () => {
                     </ul>
                     <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
                         <li className='nav-item dropdown'>
-                            <a
+                            <div
                                 className='nav-link dropdown-toggle'
-                                href='#'
                                 id='navbarDropdown'
                                 role='button'
                                 data-bs-toggle='dropdown'
-                                aria-expanded='false'
+                                aria-expanded='true'
                             >
                                 1/3
-                            </a>
+                            </div>
                             <ul className='dropdown-menu' aria-labelledby='navbarDropdown'>
                                 <li>
-                                    <a className='dropdown-item' href='#'>
-                                        Action
+                                    <a className='dropdown-item' href='/tall-one-three'>
+                                        Todos los productos
                                     </a>
                                 </li>
                                 <hr className='dropdown-divider' />
