@@ -1,12 +1,12 @@
 import React from 'react';
-import Card from '../components/Card';
 import Carousel from '../components/Carousel/Carousel';
+import News from '../components/News/News';
 
 const Home = () => {
     return (
         <>
             <Carousel />
-            <Card />
+            <News />
         </>
     );
 };
