@@ -6,6 +6,7 @@ const Home = () => {
     return (
         <>
             <Carousel />
+            <h2 className='pt-4'>Novedades</h2>
             <News />
         </>
     );

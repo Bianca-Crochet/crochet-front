@@ -1,13 +1,14 @@
 import React from 'react';
-
 import PropTypes from 'prop-types';
+
+import classes from './card.module.css';
 
 const Card = ({ source, name, description, price, alt }) => {
     return (
         <>
             <div className='col'>
-                <div className='card h-100'>
-                    <img src={source} className='card-img-top' alt={alt} />
+                <div className='card h-100 border-0'>
+                    <img src={source} className='card-img-top ' alt={alt} />
                     <div className='card-body'>
                         <h5 className='card-title'>{name}</h5>
                         <p className='card-text'>{description}</p>
