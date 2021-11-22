@@ -5,10 +5,10 @@ import classes from './navbar.module.css';
 const Navbar = () => {
     return (
         <>
-            <div>
+            <div className={`${classes['navbar-container']}`}>
                 <nav className='navbar navbar-expand-lg container navbar-light bg-light"'>
                     <div className='container-fluid'>
-                        <a className={`navbar-brand' ${classes['title']}`} href='/'>
+                        <a className={`navbar-brand me-4' ${classes['title']}`} href='/'>
                             Crochet-App
                         </a>
                         <button

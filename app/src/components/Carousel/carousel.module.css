@@ -1,11 +1,9 @@
 .img-size {
     width: 60%;
+    min-width: 500px;
+    height: 30rem;
 }
 
 .carousel {
     width: 100%;
-}
-
-.img-size {
-    height: 20rem;
 }
