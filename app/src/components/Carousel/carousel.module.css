@@ -1,7 +1,11 @@
 .img-size {
-    width: 40%;
+    width: 60%;
 }
 
 .carousel {
     width: 100%;
+}
+
+.img-size {
+    height: 20rem;
 }

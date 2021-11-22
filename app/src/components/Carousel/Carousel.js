@@ -11,7 +11,7 @@ const Carousel = () => {
         <>
             <div
                 id='carouselExampleControls'
-                className={`carousel slide m-4 ${classes['carousel']}`}
+                className={`carousel slide mt-4 ${classes['carousel']}`}
                 data-bs-ride='carousel'
             >
                 <div className='carousel-inner'>
